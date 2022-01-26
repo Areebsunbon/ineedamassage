@@ -87,8 +87,8 @@
                         </nav>
                         <!-- End of Topbar -->
 
-                        <!-- ADMIN PROVIDER LIST  PAGE -->
-                        <div class="detail-box">
+                        <!-- Provider Dashboard PAGE -->
+                        <div id="provider-dash" class="detail-box">
                             <div class="tab-provider">
                                 <div class="tab-content" id="v-pills-tabContent">
                                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
@@ -102,26 +102,26 @@
                                                     
                                             </div>
                                            <div class="value-box">
-                                                <img src="../assets/img/money.png">
+                                                <img src="../assets/img/shared-vision.png">
                                                 <div>
-                                                    <h5>$800</h5>
-                                                    <p>Spent in the Application</p>
+                                                    <h5>1285</h5>
+                                                    <p>Unique Profile Views</p>
                                                 </div>
                                                     
                                             </div>
                                            <div class="value-box">
-                                                <img src="../assets/img/money.png">
+                                                <img src="../assets/img/customer-support.png">
                                                 <div>
-                                                    <h5>$800</h5>
-                                                    <p>Spent in the Application</p>
+                                                    <h5>215</h5>
+                                                    <p>Leads Contactedn</p>
                                                 </div>
                                                     
                                             </div>
                                             <div class="value-box">
-                                                <img src="../assets/img/money.png">
+                                                <img src="../assets/img/reply.png">
                                                 <div>
-                                                    <h5>$800</h5>
-                                                    <p>Spent in the Application</p>
+                                                    <h5>180</h5>
+                                                    <p>Opportunities Responded Back</p>
                                                 </div>
                                                     
                                             </div>                        
@@ -137,8 +137,8 @@
                                                 </div>
                                                 
                                                 <div class="col-lg-6 col-md-6 col-sm-6 justify-content-end align-self-center">
-                                                    <div class="pro-calender">
-                                                         <a href="#" class="btn-menu">Register Now</a>
+                                                    <div class="btn-pro">
+                                                         <a href="#" class="btn-menu">View All</a>
                                                     </div>
                                                 </div>
                                                 
@@ -151,461 +151,122 @@
                                                 
                                                 <div class="card-body">
                                                     <div class="table-responsive ">
-                                                        <table class="table table-bordered table-striped" id="dataTable" width="100%" cellspacing="0">
+                                                        <table  class="table table-bordered table-striped" id="dataTable" width="100%" cellspacing="0">
                                                             <thead>
                                                                 <tr>
-                                                                    <th>Providers' Name</th>
                                                                     <th>Service Type</th>
-                                                                    <th>Creation Date</th>
-                                                                    <th>Zip Code</th>
+                                                                    <th>Service Detail</th>
+                                                                    <th>Date</th>
+                                                                    <th>Gender Preference</th>
                                                                     <th>Where</th>
-                                                                    <th>Varification</th>
-                                                                    <th>Status</th>
-                                                                    <th>Varification</th>
+                                                                    <th>Zip Code</th>
+                                                                    <th></th>
+                                                                    
                                                                 </tr>
                                                             </thead>
 
                                                             <tbody>
                                                                 <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
                                                                     <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
                                                                 </tr>
 
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td class="first-box"><img src="../assets/img/ellipse.png">Olivia Smith</td>
-                                                                    <td>Massage</td>
-                                                                    <td>10-12-2021</td>
-                                                                    <td>75001</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>
-                                                                        <div class="dropdown">
-                                                                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Not Approved
-                                                                          </button>
-                                                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                                            <li><a class="dropdown-item" href="#">Not Approved</a></li>
-                                                                            <li><a class="dropdown-item" href="#"> Approved </a></li>
-                                                                          
-                                                                          </ul>
-                                                                        </div>
-                                                                    </td>
-                                                                     <td>
-                                                                         <div class="btn-group">
-                                                                          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            Action
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">Active</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Suspended</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                     </td>
-                                                                      <td>
-                                                                          <div class="btn-group dot-btn">
-                                                                          <button type="button" class="btn  " data-bs-toggle="dropdown" aria-expanded="false">
-                                                                            . . .
-                                                                          </button>
-                                                                          <ul class="dropdown-menu">
-                                                                            <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
-                                                                          </ul>
-                                                                        </div>
-                                                                      </td>
-                                                                </tr>
-                                                                
+                                                               
                                                                
                                                             </tbody>
                                                         </table>

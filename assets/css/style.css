@@ -214,8 +214,7 @@ nav.right-side {
     display: flex;
 }
 .value-box {
-    width: 100%;
-    max-width: 117%;
+   
     padding: 16px 20px;
     border-radius: 6px;
     display: flex;
@@ -232,12 +231,7 @@ nav.right-side {
     font-family: 'Graphik';
     font-weight: 600;
 }
-.value-box h2 {
-    font-size: 30px;
-    color: #CEA348;
-    font-family: 'Graphik';
-    font-weight: 600;
-}
+
 .value-box p {
     font-size: 15px;
     color: #141414;
@@ -248,12 +242,149 @@ nav.right-side {
     width: 30%;
     margin-right: 20px;
 }
-
-
+#provider-dash {
+    padding: 30px 28px;
+}
+#provider-dash .middle-bar {
+    border-bottom: 0;
+    padding-bottom: 0;
+        margin-top: 33px;
+}
+.btn-pro {
+    float: right;
+}
+.btn-pro .btn-menu {
+    border-radius: 5px;
+}
+#provider-dash .card.shadow.mb-4 {
+    border: none;
+    margin-top: 15px;
+}
+.detail-btn a {
+    color: #CEA348;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 /*********PROVIDER DASHBOARD END************/
 
 
+/*************PROVIDER PROFILE PAGE******************************/
+.title-bar {
+    padding: 20px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #c7c4c4;
+}
+#provider-profile h3 {
+    font-size: 28px;
+    color: #4F0E29;
+    width: 93%;
+    font-family: 'Graphik';
+    font-weight: 600;
+}
+#provider-profile .name-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 70px;
+}
+#provider-profile span {
+    color: #A1A1A1;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: sub;
+}
+#provider-profile .detail-box {
+    padding: 50px 30px 80px 30px;
+}
+.info p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+        margin-bottom: 3px;
+}
+.info {
+    border-bottom: 2px solid #c7c4c4;
+}
+.pro-data li {
+    display: flex;
+    border-bottom: 1px solid #c7c4c4;
+    padding: 25px 0px;
+}
+.pro-data h3 {
+    color: #7C7C7C !important;
+        width: 156px !important;
+    font-size: 16px !important;
+    margin: 0px;
+    line-height: 34px;
+}
+.pro-data p {
+    margin: 0px;
+    color: #4F0E29;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+.pro-data {
+    margin-bottom: 65px;
+}
+.blue-info {
+    color: #0969D6 !important;
+    font-weight: 500 !important;
+    padding-left: 19px;
+}
+.blue-info img {
+    vertical-align: inherit;
+}
+.cont-info {
+    width: 11%;
+    text-align: right;
+}
+.bio-para p {
+    color: #7C7C7C;
+    font-weight: 400;
+    padding-right: 80px;
+}
+.bio-para {
+    border-bottom: 1px solid #c7c4c4;
+}
+.bio-para li {
+    padding: 35px 0px;
+}
+.img-profile {
+    padding: 20px 0px 40px 0px;
+    border-bottom: 1px solid #c7c4c4;
+}
+.img-profile img {
+    margin-right: 11px;
+}
+.profile-image img {
+    border-radius: 100%;
+    box-shadow: 0px 10px 30px #0000001A;
+}
+.upload-icon {
+    position: relative;
+    right: 70px;
+    top: 74px;
+}
+.profile-image p {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+
+.round-img{
+    border-radius: 100%;
+   box-shadow: 0px 10px 30px #0000001A !important;
+   width: 12%;
+    margin-right: 13px;
+}
+.profile-image {
+    padding-left: 50px;
+    position: relative;
+}
+/*****************PROVIDER PROFILE END*****************************/
 
 
 /*************ADMIN PROVIDER LIST START**********************/
@@ -293,6 +424,7 @@ nav.right-side {
     color: #4F0E29;
     font-family: 'Graphik';
     font-weight: 600;
+    margin: 0px;
 }
 .layou-search input {
     border: none;
