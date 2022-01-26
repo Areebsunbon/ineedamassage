@@ -232,6 +232,12 @@ nav.right-side {
     font-family: 'Graphik';
     font-weight: 600;
 }
+.value-box h2 {
+    font-size: 30px;
+    color: #CEA348;
+    font-family: 'Graphik';
+    font-weight: 600;
+}
 .value-box p {
     font-size: 15px;
     color: #141414;
