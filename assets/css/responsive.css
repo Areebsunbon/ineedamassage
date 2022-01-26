@@ -1,0 +1,44 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+.register-form {
+    max-width: 90%;
+}
+form {
+    padding: 20px;
+}
+.small-box {
+    max-width: 71%
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.register-form {
+    margin: 0 auto !important;
+    max-width: 100%;
+}
+.massage .form-select {
+    width: 100%;
+}
+.small-box {
+    margin: 0 auto !important;
+    max-width: 93%;
+}
+.box-wrap {
+    padding: 30px;
+    margin-top: 16%;
+
+}
+.small-box form {
+    padding: 30px;
+
+}
+.box-top {
+    padding: 14px 12px 0px 14px;
+}
+.frogot-pass {
+    float: left;
+    padding-bottom: 30px;
+}
+
+}
