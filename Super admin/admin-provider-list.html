@@ -35,24 +35,48 @@
     
     <div id="wrapper" class="dashboard-pannel">
         <div class="row">
-            <div class="col-lg-2 col-md-2 ccol-sm-12 px-0 bg-gray">
+            <div class="dashboard-left-area bg-gray">
                 <!-- Sidebar -->
-                <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+                
 
-                    <img src="../assets/img/plogo.png">
-                    <!-- Nav Item - Dashboard -->
-                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="../assets/img/union.png"><span>Dashboard</span></button>
-                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="../assets/img/therapist.png"><span>Providers</span></button>
-                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="../assets/img/customer.png"><span>Customers</span></button>
-                       
-                    </div>
+                <!-- demo -->
+                <ul >
+                    <li>
+                        <a href="#">
+                            <span class=""></span>
+                             <img src="../assets/img/plogo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/union.png" class="icon">
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/therapist.png" class="icon">
+                            <span class="title">Providers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../assets/img/customer.png" class="icon">
+                            <span class="title">Customers</span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
                     
 
                 </ul>
+                <!-- demo end -->
                <!-- End of Sidebar -->
             </div>
-            <div class="col-lg-10 col-md-10 col-sm-12 px-0">
+            <div class="dashboard-right-area">
                 <!-- Main Content -->
                 <div id="content-wrapper" class="d-flex flex-column">
                     <div id="content">
@@ -60,6 +84,9 @@
                         <!-- Topbar -->
                         
                         <nav class="right-side">
+                            <div class="toggle-btn">
+                                 <i class="fas fa-bars"></i>
+                            </div>
                             <ul class="nav nav-pills justify-content-end">
                                           
                                           <li class="nav-item not-img">
@@ -90,12 +117,12 @@
                                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                         <div class="middle-bar">
                                             <div class="row">
-                                                <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-self-center">
+                                                <div class="col-lg-6 col-md-4 col-sm-12 d-flex align-self-center">
                                                     <div class="hed-pro">
                                                         <h2>PROVIDER</h2>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-3 px-0 col-sm-12 d-flex justify-content-end">
+                                                <div class="col-lg-3 col-md-4 px-0 col-sm-12 d-flex justify-content-end">
                                                     <div class="pro-calender">
                                                         <div class="layou-calen">
                                                             <img src="../assets/img/calender.png">
@@ -104,7 +131,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                                                <div class="col-lg-3 col-md-4 col-sm-12 ">
                                                     <div class="pro-calender">
                                                         <div class="layou-search">
                                                             <form>
@@ -632,6 +659,16 @@
         
 
     </div>
+    <script src="../assets/website-js/jquery.3.6.min.js"></script>
+            <script>
+        $(document).ready(function(){
+          $(".toggle-btn").click(function(){
+            $("body").toggleClass("resposive");
+            
+          });
+        });
+       
+        </script>
 
 </body>
 

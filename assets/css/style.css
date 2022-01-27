@@ -114,7 +114,7 @@ p {
     background-color: #F6F6F6;
 }
 
-/*****************DASHBOARD START*******************/
+/*****************DASHBOARD  lay out START*******************/
 #wrapper {
     display: flex;
     flex-flow: column;
@@ -162,51 +162,134 @@ nav.right-side {
 .not-img {
     margin-top: 16px;
     margin-right: 15px;
+    position: relative;
 }
 .num-img {
     position: absolute;
-    right: 183px;
-    top: 22px;
+    right: -4px;
+    top: -8px;
 }
-#v-pills-tab {
-    margin-top: 85px !important;
-    margin-right: 0 !important;
-}
-#v-pills-tab button {
-    margin-bottom: 6px;
-}
-#v-pills-tab button:hover {
-    background-color: #4F0E29;
-    color: #ffffff;
-    border-radius: 0;
-}
-#v-pills-tab button:active{
-    color: #fff;
-}
-#v-pills-tab button span {
-        position: relative;
-    left: 10px;
-    display: block;
-}
-#v-pills-tab button img {
-    float: left;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background: transparent linear-gradient(
-270deg
-, #D0A64C 0%, #BF922C 100%) 0% 0% no-repeat padding-box;
-    border: none;
-        padding: 9px 0px 11px 0px;
-    border-radius: 0;
-}
+
 .dashboard-pannel .footer-bottom {
     /* margin-top: 40px; */
     padding: 15px 0px 15px 0px !important;
     background-color: #F6F6F6;
     border-top: 1px solid #c7c4c4;
 }
+.toggle-btn .fas.fa-bars {
+    color: #c1942f;
+    background-color: #4f0e29c9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dashboard-left-area.bg-gray {
+    width: 270px;
+    height: 100%;
+    position: fixed;
+    transition: 0.5s;
+    overflow: hidden;
+    border-right: 1px solid #a1a1a138;
+        padding: 0 !important;
+}
+.resposive .dashboard-left-area.bg-gray{
 
+    width: 80px;
+}
+.normal-dash .dashboard-left-area.bg-gray {
+    width: 270px;
+}
+.toggle-btn {
+    display: none;
+}
+
+.resposive .dashboard-right-area {
+    width: calc(100% - 63px);
+    left: 79px;
+}
+.resposive .dashboard-left-area ul li:nth-child(1) {
+    margin: 40px -19px;
+}
+.resposive .dashboard-left-area ul li a .icon {
+  min-width: 23px;
+    height: 37px;
+    padding-top: 17px !important;
+    margin-right: 29px;
+    margin-left: -6px;
+}
+.resposive .dashboard-left-area ul li a {
+    padding: 0px 16px;
+}
+.resposive .dashboard-left-area ul li:nth-child(1) {
+  padding: 0px 4px;
+}
+.dashboard-right-area {
+    position: absolute;
+    width: calc(100% - 240px);
+    left: 258px;
+    background-color: #fff;
+    transition: 0.5s;
+    padding: 0;
+}
+
+.toggle-btn{
+    position: absolute;
+    top: 26px;
+    color: #000;
+}
+
+.dashboard-left-area ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0px 20px;
+}
+.dashboard-left-area ul li {
+ position: relative;
+ width: 100%;
+ list-style: none;
+
+}
+.dashboard-left-area ul li:hover {
+ background: transparent linear-gradient(270deg, #D0A64C 0%, #BF922C 100%) 0% 0% no-repeat padding-box;
+}
+.dashboard-left-area ul li:nth-child(1) {
+    margin: 40px 0px;
+    background-color: transparent;
+    pointer-events: none;
+    
+}
+.dashboard-left-area ul li a {
+ position: relative;
+ width: 100%;
+ display: block;
+ display: flex;
+ text-decoration: none;
+ color: #000;
+     padding: 0px 20px;
+}
+.dashboard-left-area ul li:hover a {
+    color: white;
+}
+.dashboard-left-area ul li:hover .icon {
+    filter: brightness(12.5);
+}
+.dashboard-left-area ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 18px;
+    height: 41px;
+    text-align: center;
+    padding-top: 20px;
+}
+.dashboard-left-area ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0px 10px;
+    height: 60px;
+    line-height: 63px;
+}
+/*****************DASHBOARD layout END*******************/
 
 /*********PROVIDER DASHBOARD START************/
 
