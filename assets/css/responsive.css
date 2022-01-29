@@ -156,4 +156,7 @@ form {
     position: relative;
     top: 32px;
 }
+.confirmation-inner input {
+    width: 46px;
+}
 }
