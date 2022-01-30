@@ -291,6 +291,216 @@ nav.right-side {
 }
 /*****************DASHBOARD layout END*******************/
 
+/****************INBOX LAYOUT DASHBOARD START******************/
+.indox-wrap {
+    background: #fff;
+}
+.bg-light {
+    background-color: #F3F3F3 !important;
+}
+.indox-wrap .bg-white {
+    background-color: #f3f3f3!important;
+}
+.indox-wrap .chat-box {
+    background-color: #fff !important;
+}
+.indox-wrap .layou-search input {
+    background-color: transparent;
+    width: 92%;
+}
+.messages-box{
+    padding: 0px;
+}
+.messages-box .media {
+    display: flex;
+  padding: 10px 25px;
+}
+.messages-box h6.mb-0 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.media-body.ml-4 {
+    width: 100%;
+}
+.list-group-item{
+    padding: 0 !important;
+}
+.messages-box .rounded-circle {
+    position: relative;
+    top: -3px;
+    height: 58px;
+    width: 58px;
+    margin-right: 20px;
+}
+.messages-box small {
+    font-size: 12px;
+    color: #606060;
+    font-weight: 600;
+}
+.bin-img {
+    height: 25px;
+    width: 21px;
+}
+.messages-box p {
+    color: #606060;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #000;
+    background-color: #F3F3F3;
+    border-color: #F3F3F3;
+}
+.bd-bord {
+    border-top: 1px solid #E2E2E2;
+}
+.chat-box-header ul {
+    display: flex;
+}
+.chat-box-header li {
+    color: red;
+    /* display: flex; */
+}
+
+.header-bud {
+    justify-content: end;
+    display: flex;
+}
+.title-head li {
+    margin-right: 34px;
+}
+.header-bud li {
+    margin-left: 15px;
+    color: #7C7C7C;
+}
+.title-head a {
+
+    color: #A1A1A1;
+    font-size: 16px;
+}
+.chat-box-header {
+    padding: 20px 30px 20px 20px;
+}
+.title-head li:hover a {
+    color: #4F0E29;
+    font-weight: 600;
+    border-bottom: 2px solid #CEA348;
+    padding-bottom: 14px;
+}
+.num-green {
+    color: #2DB674 !important;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 20px;
+}
+.chat-box {
+    padding: 0px 110px !important;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+
+.messages-box {
+    height: 110vh;
+    overflow-y: scroll;
+}
+.box-chat-detail{
+       height: 95vh;
+    overflow-y: scroll;
+}
+.indox-wrap form {
+    margin-top: 0;
+    padding: 3px 30px;
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+.input-group-append img {
+    position: absolute;
+    right: 67px;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+}
+.ml-auto {
+    margin-left: auto;
+}
+
+
+.detail-chat h6{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 18px;
+    position: relative;
+    top: 13px;
+}
+.detail-chat .media-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+.detail-chat .dropdown-item {
+    padding: 10px 11px;
+}
+.detail-chat .small {
+    text-align: right;
+    color: #6B7B84 !important;
+    font-weight: 600;
+}
+
+.reciver-box {
+    background-color: #D4EFFF;
+    padding: 25px !important;
+}
+.reciver-box p, .sender-box  p{
+   color: #1E1E1E !important;
+    font-size: 14px !important;
+    line-height: 25px;
+}
+.detail-chat .input-group {
+    border: 1px solid #E2E2E2;
+    border-radius: 161px;
+    padding: 2px;
+    margin: 0px 15px;
+    width: 752px;
+}
+.detail-chat form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.detail-chat  .input-group-append {
+    position: absolute;
+    right: -45px;
+    top: 8px;
+}
+.detail-chat  input {
+    border: none;
+    background-color: transparent;
+}
+.detail-chat  .form-control:focus {
+    background: transparent;
+}
+.detail-chat i.fa.fa-paper-plane {
+    color: #48D1C7;
+}
+/****************INBOX LAYOUT DASHBOARD START******************/
+
+
 /*********PROVIDER DASHBOARD START************/
 
 .value {

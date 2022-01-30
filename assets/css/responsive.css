@@ -69,6 +69,37 @@ form {
 .layou-calen h6 {
     font-size: 10px;
 }
+.chat-box {
+    padding: 0px 30px !important;
+}
+.header-bud li {
+    margin-left: 6px;
+        font-size: 15px;
+}
+.messages-box .rounded-circle {
+   
+    height: 41px;
+    width: 42px;
+    margin-right: 6px;
+}
+.messages-box h6.mb-0 {
+    font-size: 14px;
+}
+.indox-wrap .layou-search input {
+    width: 85%;
+}
+.bin-img {
+    height: 16px;
+    width: 15px;
+}
+.messages-box p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.box-chat-detail {
+    height: 100vh;
+}
 
 }
 
