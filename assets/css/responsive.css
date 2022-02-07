@@ -100,11 +100,76 @@ form {
 .box-chat-detail {
     height: 100vh;
 }
+.divider .intro-para {
+    padding-right: 0px;
+ }
+ /************** SERVICES A REQUEST SATART*****************/
+ .modal-dialog {
+     max-width: 680px !important;
+ }
+ .to-img {
+     right: -163px !important;
+ }
+ .time-slot img {
+     right: 174px;
+ }
+ .eye-place .eye-img {
+    bottom: 165px;
+}
+.coneye-img {
+    position: absolute;
+    bottom: 165px;
+    right: 55%;
+} 
+.provider-footer p {
+    font-size: 13px;
+}
+.therapist-profile .detail-box {
+    padding: 80px 0px 80px 30px !important;
+}
+.pro-data h3 {
+    width: 200px !important;
+}
 
 }
 
 
 @media only screen and (max-width: 767px) {
+
+    .dashboard-left-area.bg-gray {
+    width: 370px;
+}
+.dashboard-right-area {
+    position: absolute;
+    width: calc(100% - 377px);
+}
+    #provider-profile .detail-box {
+    padding: 50px 30px 80px 30px;
+}
+.pro-data h3 {
+    width: 217px !important;
+}
+    .provider-footer p {
+        font-size: 13px;
+    }
+    .home .about-area {
+        background-position: initial;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.eye-img {
+        right: 43px;
+        margin-top: -28px !important;
+}
+.eye-place .eye-img {
+    margin-top: -28px !important;
+}
+.coneye-img {
+    position: absolute;
+    margin-top: -28px !important;
+    right: 13%;
+}
+
 .toggle-btn {
     display: block;
 }
@@ -120,7 +185,9 @@ form {
     right: -4px;
     top: -5px;
 }
-
+.middle-bar h2 {
+    top: 0;
+}
 /********PROVIDER DASHBOARD START***********/
 #provider-dash .value {
     display: block;
@@ -185,9 +252,385 @@ form {
     font-size: 16px;
      margin: 0px;
     position: relative;
-    top: 32px;
+    
+}
+input#code {
+    width: 60% !important;
+    height: 45px !important;
+    padding: 10px !important;
+}
+.confirmation-inner .btn.btn-primary {
+    width: 91%;
+    background: transparent linear-gradient( 
+270deg
+ , #D0A64C 0%, #BF922C 100%) 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-right: 17px;
+    margin-top: 26px;
 }
 .confirmation-inner input {
     width: 46px;
 }
+.divider .intro-para {
+    padding-right: 0px;
 }
+.title-head li {
+    margin-right: 20px;
+}
+.header-bud {
+    justify-content: normal;
+    margin-top: 20px;
+}
+.header-bud li {
+    margin-left: 0;
+}
+.num-green {
+    padding-left: 15px;
+}
+.customer-requested .indox-wrap .chat-box {
+    padding: 20px 20px 0px 34px !important;
+}
+.request-box-text {
+    width: 100% !important;
+    margin-top: 45px;
+}
+.indox-wrap form {
+    margin-top: 0;
+    padding: 3px 10px 0px 10px;
+}
+.indox-wrap .layou-search input {
+    width: 89%;
+}
+
+/*********SERVICES A REQUEST**************/
+.disc-para span {
+    padding-right: 0;
+}
+.to-img {
+    right: -189px !important;
+}
+.time-slot img {
+    right: 187px;
+}
+.middle-bar h2 {
+    top: 0;
+}
+}
+
+/* *******HOME PAGE START********* */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) {
+    .provider-footer p {
+        font-size: 13px;
+    }
+
+    .home .nav-right-part {
+        background-color: #fff0 !important;
+    width: auto !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .responsive-table {
+        overflow-x: scroll;
+    }
+    .home .about-area {
+        background-position: initial !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+    }
+    .home .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:after {
+        right: 88%;
+    }
+    .home .newsletter-area input {
+        /* border: none; */
+        height: 61px;
+    }
+    .home .navbar-nav ah1 {
+        font-size: 29px;
+    }
+    .home .menu-sec{
+        display: none !important;
+    }
+    .home .newsletter-area {
+        padding: 30px;
+        max-width: 84%;
+    }
+    .home .newsletter-area h3 {
+        font-size: 38px;
+            margin-bottom: 25px;
+    }
+    .home .footer-widget .logo img {
+        width: 88%;
+    }
+    .home .footer-widget a {
+        font-size: 13px;
+    }
+    .home .footer-widget h6 {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .home .nav-right-part {
+        background-color: #000;
+        width: 100%;
+        margin: 0;
+    }
+    .home .navbar-nav.menu-open {
+        padding: 20px;
+    }
+    .home .current-menu-item.menu-item-has-children {
+        margin-left: 0;
+    }
+    .home .nav-right-part .btn {
+        font-size: 13px;
+        padding: 0 10px;
+      }
+    
+      .home .responsive-mobile-menu {
+        
+        top: -13px;
+      }
+      /************* SEARCH PROVIDER START******************/
+      .search-boxs form {
+            padding: 10px 20px;
+            box-shadow: inherit !i;
+            margin: 0;
+            border: none;
+            width: 55% !important;
+            height: 45px;
+        }
+       .detail-search {
+        padding: 20px 20px;
+    }
+   .img-pro {
+        width: 50%;
+    }
+    .search-content p {
+        padding-right: 0;
+    }
+   .detail-search .btn-menu {
+        padding: 10px 16px;
+        line-height: 47px;
+        font-size: 13px;
+    }
+    .search-btn {
+        width: 80%;
+    }
+  .search-boxs select#inputGroupSelect04 {
+        width: 30%;
+    }
+    .search-area .input-group {
+        height: 46px !important;
+    }
+    .search-wrap {
+        margin-top: 21px;
+    }
+ .search-boxs {
+        margin-bottom: 30px;
+    }
+   .search-content ul {
+        margin: 6px 0px;
+    }
+   .search-content img {
+        width: 23%;
+        margin-top: 3px;
+    }
+     .tick-img {
+        margin-top: -3px;
+    }
+    /* *******ERROR PAGE********** */
+    .home .error-section img {
+        width: 100%;
+    }
+    .home .error-section p {
+    
+        max-width: 100%;
+    }
+    .home .home-footer {
+        padding-top: 60px !IMPORTANT;
+    }
+    }
+    
+    
+    @media only screen and (max-width: 767px) {
+        .search-banner {
+            width: 100%;
+        }
+        .responsive-table {
+            overflow-x: scroll;
+        }
+        .home .about-area {
+            background-position: initial !important;
+            background-repeat: no-repeat !important;
+            background-size: contain !important;
+        }
+        .home body{
+        text-align: center;
+    }
+    .home h1 {
+        font-size: 29px;
+    }
+    .home .bg-img {
+        width: 64% !important;
+    }
+    .home .banner-form select#inputGroupSelect04 {
+        width: 100%;
+        height: 55px
+    }
+    
+    .home .banner-form button.btn.btn-outline-secondary {
+        margin: auto;
+        left: 90px;
+        width: 160px;
+        margin-top: 10px;
+    }
+    .home .banner-form .input-group {
+        height: 202px;
+    }
+    .home .menu-sec{
+        display: none !important;
+    }
+    .home button.owl-next {
+        right: 12px;
+    }
+    .home button.owl-prev {
+        left: 16px;
+    }
+    .home .about-area img {
+        width: 100%;
+        float: none;
+    }
+    .home .testimonial-area.text-center {
+        padding: 70px 0px;
+    }
+    .home .testimonial-area img {
+        width: 26%;
+    }
+    .home h3 {
+        font-size: 25px;
+    }
+    .home .newsletter-area {
+        max-width: 92%;
+      padding: 21px 20px 38px 20px;
+        height: auto;
+    }
+    .home .newsletter-area h3 {
+        font-size: 25px;
+        margin-bottom: 22px;
+    }
+    .home .newsletter-area input#exampleFormControlInput1 {
+        width: 79%;
+    }
+    .home .coming-form button#button-addon2 {
+        margin-top: 11px;
+        padding: 10px 10px;
+    }
+    .home .col {
+        flex: initial;
+    }
+    .home .footer-area {
+        text-align: left !important;
+        padding: 230px 20px 20px 20px;
+    }
+    .home .footer-widget h6 {
+        margin-top: 50px;
+    }
+    .home .footer-bottom {
+        max-width: 100%;
+    }
+    .home .footer-bottom ul {
+        text-align: center;
+    }
+    .home .footer-bottom .copyright-area p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .home .footer-widget .logo img {
+        margin: 0 auto;
+        max-width: 99%;
+        width: 54%;
+    }
+    .home .social-area-icon img {
+        width: 11%;
+        height: 42px;
+    }
+    /***********SEARCH PROVIDER*******************/
+     .search-area p {
+        padding: 30px 10px;
+    }
+     .search-area  select#inputGroupSelect04 {
+        width: 100%;
+    
+    }
+  .search-area #code {
+       width: 83%;
+        border: 1px solid #0000001C;
+        margin-bottom: 20px
+    }
+    .search-area #code {
+    width: 30% !important;
+    height: 45px !important;
+    padding: 10px !important;
+}
+     .search-area .input-group {
+        height: 180px !important;
+        padding-bottom: 20px !important;
+       padding: 10px 10px 20px 10px !important;
+    }
+    .search-area button.btn.btn-outline-secondary {
+        /* margin: 0 auto; */
+        margin-left: 50px !important;
+    }
+    .search-area span#addon-wrapping {
+        border: 1px solid #0000001C;
+        height: 44px;
+    }
+    .detail-search {
+        display: block;
+        padding: 20px 20px;
+        margin: 12px 20px;
+    }
+   .img-pro {
+        width: 100%;
+    }
+    .search-content {
+        padding: 0;
+        width: auto;
+    }
+    .search-content img {
+        width: 30%;
+        margin: 0 auto;
+    }
+   .search-content ul {
+        display: flow-root;
+        margin: 10px;
+    }
+     .search-content p {
+        padding-right: 0;
+    }
+    .search-btn {
+        width: 100%;
+    }
+     .detail-search img {
+        width: 46%;
+        margin-bottom: 11px;
+    }
+    .tick-img {
+        width: 7%;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+    /* *******ERROR PAGE********** */
+    .home .error-section img {
+        width: 100%;
+    }
+    .home .error-section p {
+    
+        max-width: 100%;
+    }
+    .home .home-footer {
+        padding-top: 60px !IMPORTANT;
+    }
+    }

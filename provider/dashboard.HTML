@@ -27,6 +27,13 @@
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<!--  <style type="text/css">
+thead th {
+    background: white !important;
+    position: sticky !important;
+    top: 0 !important;
+}
+</style> -->
 
 
 </head>
@@ -37,9 +44,6 @@
         
             <div class="dashboard-left-area bg-gray">
                 <!-- Sidebar -->
-                
-
-                <!-- demo -->
                 <ul >
                     <li>
                         <a href="#">
@@ -89,14 +93,7 @@
                             <span class="title">Budgeting</span>
                         </a>
                     </li>
-
-
-                    
-                    
-                    
-
                 </ul>
-                <!-- demo end -->
                <!-- End of Sidebar -->
             </div>
             <div class="dashboard-right-area">
@@ -186,19 +183,200 @@
                                                 
                                                 <div class="col-lg-6 col-md-6 col-sm-6 justify-content-end align-self-center">
                                                     <div class="btn-pro">
-                                                         <a href="#" class="btn-menu">View All</a>
+                                                         <a href="#" class=" btn-menu">View All</a>
+                                                         <!--   <button type="button" class="btn popup-btn btn-menu btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Request a Sevice </button> -->
                                                     </div>
                                                 </div>
                                                 
                                             </div>
                                         </div>
+
+                                        <!-- MODAL BOX -->
+                        <!-- Modal -->
+                        <div class="modal fade popup-section " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                                <div class="modal-body popup-section">
+                                    <div class="container register-form">
+                                        <div class="row d-flex align-self-center">
+                                            <div class="col-12">
+                                                <div class="view-inner ">
+                                                    <div class="box-request">
+                                                        <div class="row mb-4">
+                                                            <div class="col-12">
+                                                                <div class="service-hd">
+                                                                    <h3>Requested Service</h3>
+                                                                    
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Where</span>
+                                                                            <h5>Dallas, TX</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Zip Code</span>
+                                                                            <h5>75001</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Massage Location</span>
+                                                                            <h5>At Home</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <div class="row mb-4">
+                                                            <div class="col-12">
+                                                              
+                                                                <div class="row">
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Service Type</span>
+                                                                            <h5>Massage Therapy</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Massage Type</span>
+                                                                            <h5>Trigger Point Massage</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Therapist Gender Preference</span>
+                                                                            <h5>Female</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <div class="row mb-4">
+                                                            <div class="col-12">
+                                                                
+                                                                <div class="row mb-2">
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Session Length</span>
+                                                                            <h5>120 Minutes</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                        <div class="list-service">
+                                                                            <span>Number of People</span>
+                                                                            <h5>1 Person</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                       
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <div class="row mb-4 bd-border">
+                                                            <div class="col-12">
+                                                                
+                                                                <div class="row mb-2">
+                                                                    <div class="col-4">
+                                                                        <div class="list-service">
+                                                                            <span>Date</span>
+                                                                            <h5>Thu, Dec 2, 2021</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <div class="list-service">
+                                                                            <span>Time Available</span>
+                                                                            <h5>12pm - 3pm</h5>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <div class="row mb-4 ">
+                                                            <div class="col-12">
+                                                                
+                                                                <div class="row mb-2">
+                                                                    <div class="col-6">
+                                                                        <div class="btn-int">
+                                                                            <a href="#">Not Interested</a>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="btn-int-m btn-int">
+                                                                           <a href="#" >I'm Interested ($10)</a>
+                                                                            
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                                 
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                        </div>
                                         
                                         <div class="provider-table">
                                             <!-- DataTales Example -->
                                             <div class="card shadow mb-4">
                                                 
                                                 <div class="card-body">
-                                                    <div class="table-responsive ">
+                                                 
+                                                    <div class="responsive-table">
                                                         <table  class="table table-bordered table-striped" id="dataTable" width="100%" cellspacing="0">
                                                             <thead>
                                                                 <tr>
@@ -212,111 +390,139 @@
                                                                     
                                                                 </tr>
                                                             </thead>
-
+                                                                
                                                             <tbody>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Aestheticians</td>
-                                                                    <td>Skincare Consultation </td>
-                                                                    <td>Dec 02 Tue</td>
-                                                                    <td>Female</td>
-                                                                    <td>Dallas</td>
-                                                                    <td>75001</td>
-                                                                    <td class="detail-btn"><a href="#">View Details</a></td>
-                                                                </tr>
 
-                                                               
-                                                               
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                 <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Aestheticians</td>
+                                                                    <td>Skincare Consultation </td>
+                                                                    <td>Dec 02 Tue</td>
+                                                                    <td>Female</td>
+                                                                    <td>Dallas</td>
+                                                                    <td>75001</td>
+                                                                    <td class="detail-btn"><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</a></td>
+                                                                </tr>
+                                                            
                                                             </tbody>
+                                                            
+
                                                         </table>
                                                     </div>
                                                 </div>
@@ -363,10 +569,6 @@
                         </footer>
                         <!-- footer area end --> 
             </div>
-            
-        
-        
-
     </div>
     <script src="../assets/website-js/jquery.3.6.min.js"></script>
             <script>
