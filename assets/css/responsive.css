@@ -432,6 +432,48 @@ input#code {
         
         top: -13px;
       }
+
+      /********SEARCH PROFILE START*******/
+      .profile-search {
+        margin: 0 auto;
+        max-width: 90%;
+            margin-bottom: 80px;
+    }
+    .profile-search .therapist-pro {
+    width: 67%;
+}
+.intro-profile img {
+    width: 29%;
+}
+.profile-search .therapist-pro h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+}
+.profile-search .therapist-pro span {
+    color: #606060;
+    font-size: 15px;
+}
+.profile-review {
+    padding: 0px 0px 4px 0px;
+}
+.profile-search button.btn.btn-menu {
+    padding: 0px 33px;
+}
+.right-profile .img-profile img {
+    width: 28%;
+}
+.left-profile {
+    padding-right: 20px;
+}
+.review-box {
+    color: #656565;
+    width: 55%;
+}
+.btn-load a {
+    width: 21%;
+}
+    /********SEARCH PROFILE END*******/
+
       /************* SEARCH PROVIDER START******************/
       /*.search-boxs form {
             padding: 10px 20px;
@@ -505,6 +547,45 @@ input#code {
     
     
     @media only screen and (max-width: 767px) {
+
+        /***************SERACH PROFILE********************/
+        .profile-search {
+    margin: 0 auto;
+    max-width: 93%;
+        padding: 50px 20px;
+        margin-bottom: 67px;
+}
+.review-box-wrap {
+    display: inline-block;
+}
+.profile-detail {
+    float: left;
+}
+.profile-search .therapist-pro {
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+}
+.review-box {
+    color: #656565;
+    width: 100%;
+    font-size: 12px;
+    padding: 0px 0px;
+}
+.bt-top {
+    border-top: 0px;
+    padding-right: 0;
+    text-align: justify;
+}
+.btn-load a {
+    width: 49%;
+}
+.right-profile .img-profile img {
+  
+    width: 27%;
+    margin-bottom: 30px;
+}
+/***************SERACH PROFILE END********************/
         .search-banner {
             width: 100%;
         }
