@@ -1115,7 +1115,7 @@ input::placeholder {
 #provider-profile h3 {
   font-size: 28px;
   color: #4F0E29;
-  width: 93%;
+  width: 92%;
   font-family: 'Graphik';
   font-weight: 600;
 }
@@ -1158,7 +1158,7 @@ input::placeholder {
 .pro-data h3 {
   color: #7C7C7C !important;
   width: 180px !important;
-  font-size: 16px !important;
+  font-size: 14px !important;
   margin: 0px;
   line-height: 34px;
 }
@@ -1375,7 +1375,7 @@ td {
   padding: 15px 20px !important;
   line-height: 20px;
   color: #606060;
-   font-size: 14px;
+   font-size: 13px;
 
 }
 th {
@@ -3146,26 +3146,28 @@ color: #fff;
     border-radius: 0;
 }
 .modal {
-    top: 70px;
+    top: 15px;
 }
 
 .btn-int a {
     color: #A1A1A1;
     width: 100%;
     text-align: center;
-    padding: 0% 40%;
+    padding: 5% 28%;
 }
 .btn-int {
     text-align: center;
     border: 1px solid #A1A1A1;
     padding: 12px 0px;
     border-radius: 5px;
+    margin-top: 25px;
 }
 .btn-int-m {
     background: transparent linear-gradient(
 270deg
 , #D0A64C 0%, #BF922C 100%) 0% 0% no-repeat padding-box;
     border-color: #BF922C;
+    margin-left: 15px;
 }
 .btn-int-m a{
     color: #fff;
