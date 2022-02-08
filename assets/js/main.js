@@ -100,6 +100,11 @@
         var backButton = '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>';
         var nextButton = '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>';
 
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
         /**menu**/
         $('.menu-slider').owlCarousel({
             loop:true,

@@ -1029,11 +1029,11 @@ input::placeholder {
     margin: 0;
 }
 .therapist-pro {
-    width: 40%;
+    width: 49%;
     display: inline-block;
 }
 .check-box {
-    width: 43%;
+    width: 42%;
     float: right;
     justify-content: center;
     align-items: center;
@@ -2618,7 +2618,8 @@ color: #fff;
 .search-boxs .banner-form span#addon-wrapping {
   background-color: #fff;
   /* border: none !important; */
-  height: 45px;
+   display: inline-block;
+    border-radius: 0;
 }
 .search-banner {
   padding: 0px 20px;
@@ -2627,8 +2628,13 @@ color: #fff;
 }
 
 .search-boxs .banner-form #code {
-  border: none;
-  border-radius: 0;
+    border: none;
+    border-radius: 0;
+    width: 80%;
+    display: inline-block;
+}
+.search-boxs .input-group {
+    height: 45px;
 }
 
 .home .banner-inner {
@@ -2849,21 +2855,80 @@ color: #fff;
   max-width: 32%;
 }
 
+
+
+/*************SERACH PROFILE START********************/
+.profile-search {
+    margin: 0 auto;
+    max-width: 69%;
+    padding: 40px 30px;
+    box-shadow: 0px 10px 40px #00000012;
+}
+.pro-search {
+    margin-bottom: 50px !important;
+}
+.profile-search .therapist-pro {
+    width: 49%;
+    float: right;
+}
+.profile-search  .therapist-pro img {
+    width: 95px;
+}
+.profile-search button.btn.btn-menu {
+    padding: 2px 50px;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    line-height: 39px;
+    font-size: 14px;
+}
+.profile-search .btn-menu:hover {
+    background: transparent !important;
+    border: 1px solid #bf922c !important;
+    color: #bf922c !important;
+}
+.profile-search svg.svg-inline--fa.fa-envelope.fa-w-16 {
+    padding-right: 4px;
+    font-size: 21px;
+    padding-top: 7px;
+}
+.profile-search svg.svg-inline--fa.fa-heart.fa-w-16 {
+    color: #D82828;
+    font-size: 21px;
+  }
+  .licens-profile img {
+    width: 19px !important;
+}
+.profile-review {
+    padding: 10px 0px 4px 0px;
+}
+.licens-profile {
+    padding-bottom: 20px;
+}
+/*************SERACH PROFILE END********************/
+
 /********SEARCH PROVIDER START****************/
 .search-boxs input:focus-visible {
   
     outline: 0;
 }
+.search-boxs {
+    margin: 0 auto;
+    max-width: 960px;
+}
 .search-boxs input {
     border: none;
-    width: 100%;
+    max-width: 569px;
+    width: 569px;
+    padding: 11px;
+    background-color: transparent;
 }
 .search-boxs form {
-    padding: 11px 20px;
+    padding: 0px;
     box-shadow: none;
     margin: 0;
     border: none;
-        width: 60%;
+        width: 100%;
 }
 .search-section {
   padding-bottom: 70px;
@@ -2895,11 +2960,17 @@ color: #fff;
  .search-are select#inputGroupSelect04 {
   padding: 15px 20px;
 }
+.search-boxs .mb-2 {
+    margin-bottom: 0px !important;
+}
+.search-boxs .mt-2 {
+    margin-top: 0px !important;
+}
+
 
  .search-area .input-group {
   box-shadow: 0px 3px 14px #0000001c;
   padding: 0 !important;
-  height: 45px !important;
 }
 .search-area button.btn.btn-clear {
     height: 45px;
@@ -3011,6 +3082,16 @@ color: #fff;
 .search-area {
   margin-top: 140px;
 }
+.res-cont h3 {
+    font-size: 26px;
+    color: #220411;
+    font-family: 'Graphik';
+    font-weight: 500;
+    margin-top: 30px;
+}
+.res-cont {
+    padding: 80px 0px;
+}
 
 /* ***** SEARCH PROVIDER END*********** */
 .home .newsletter-area .row {
@@ -3024,6 +3105,7 @@ color: #fff;
 
 .home .newsletter-area .coming-form .input-group.mb-3 {
   height: 60px;
+      width: 362px;
 }
 
 .home .newsletter-area input {

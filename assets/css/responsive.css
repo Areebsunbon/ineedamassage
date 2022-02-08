@@ -340,11 +340,20 @@ input#code {
     top: 0;
 }
 }
+@media only screen (max-device-width: 1366px) {
 
+
+  }
 /* *******HOME PAGE START********* */
+
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) {
+
+    .search-boxs input {
+    border: none;
+    max-width: 415px !important;
+}
 /*********Provider detail popup************/
 
 .btn-int a {
@@ -424,14 +433,24 @@ input#code {
         top: -13px;
       }
       /************* SEARCH PROVIDER START******************/
-      .search-boxs form {
+      /*.search-boxs form {
             padding: 10px 20px;
             box-shadow: inherit !important;
             margin: 0;
             border: none;
-            width: 55% !important;
+            width: 100% !important;
             height: 45px;
-        }
+        }*/
+        .search-boxs input {
+    border: none;
+    max-width: 184px;
+}
+.search-boxs .mb-2 {
+    margin-bottom: 0px !important;
+}
+.search-boxs .mt-2 {
+    margin-top: 0px !important;
+}
        .detail-search {
         padding: 20px 20px;
     }
@@ -544,7 +563,7 @@ input#code {
     }
     .home .newsletter-area {
         max-width: 92%;
-      padding: 21px 20px 38px 20px;
+      padding: 21px 20px 58px 20px;
         height: auto;
     }
     .home .newsletter-area h3 {
@@ -598,7 +617,7 @@ input#code {
     .search-boxs form {
    
      box-shadow: inherit; 
-    width: 60%;
+    width: 100%;
     height: 45px;
 }
   .search-boxs button.btn.btn-outline-secondary {
@@ -610,7 +629,7 @@ input#code {
     margin-left: 30px !important;
 }
     .search-area #code {
-    width: 29% !important;
+    width: 81% !important;
 }
     
      .search-area .input-group {
@@ -618,12 +637,15 @@ input#code {
         padding-bottom: 20px !important;
        padding: 10px 10px 20px 10px !important;
     }
+    .search-boxs button.btn.btn-outline-secondary {
+    width: auto !important;
+}
     
 
-    .search-area span#addon-wrapping {
+    /*.search-area span#addon-wrapping {
         border: 1px solid #0000001C;
         height: 44px;
-    }
+    }*/
     .detail-search {
         display: block;
         padding: 20px 20px;
