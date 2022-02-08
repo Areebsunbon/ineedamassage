@@ -142,6 +142,33 @@ form {
 
 
 @media only screen and (max-width: 767px) {
+   .center-box .search-boxs form {
+    height: 180px;
+    padding: 20px;
+}
+.center-box .search-boxs input {
+    border: 1px solid #bfbbb9;
+     max-width: 292px !important;
+}
+.center-box .col-auto.px-0.mb-2.mt-2 {
+    border: 1px solid #bfbbb9;
+    height: 49px;
+    padding: 0;
+    width: 292px;
+    border-top: 0;
+    /*margin-left: 12px;*/
+    margin-bottom: 9px !important;
+}
+.center-box input#code {
+    width: 79% !important;
+}
+.center-box .col-auto {
+    padding: 0;
+}
+/*.center-box .banner-form button.btn.btn-outline-secondary {
+    margin-left: 12px !important;
+}*/
+
 
     .dashboard-left-area.bg-gray {
     width: 370px;

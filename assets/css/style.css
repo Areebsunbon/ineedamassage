@@ -1832,6 +1832,22 @@ input::-webkit-inner-spin-button {
 
 
 /* **************HOME PAGE CSSS******************* */
+.center-box form {
+    background-color: #fff;
+    height: 45px;
+}
+.center-box  .search-boxs .input-group {
+    height: auto;
+}
+.center-box .search-boxs input {
+    border: none;
+    max-width: 259px !important;
+}
+.center-box .search-boxs .banner-form span#addon-wrapping {
+    
+    
+    border: none !important;
+  }
 .banner-form .ssearch-banner {
   border: none;
   width: 44% !important;
