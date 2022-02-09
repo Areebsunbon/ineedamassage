@@ -1,4 +1,24 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /*************PROVIDER PROFILE START************/
+    .pro-data input {
+    position: absolute;
+    width: 203px;
+    right: 125px;
+    top: 2px;
+    height: 40px;
+}
+.pro-data select {
+    position: absolute;
+    width: 203px;
+    right: 125px;
+    top: 2px;
+    height: 40px;
+}
+.textarea-box {
+    top: 308px;
+}
+  /*************PROVIDER PROFILE END************/
+
 .toggle-btn {
     display: block;
 }
@@ -48,9 +68,12 @@ form {
 }
 .profile-image p {
     padding-top: 0;
+    text-align: center;
 }
 .round-img {
-    width: 22%;
+    width: 55px;
+    margin-right: 3px;
+    margin-left: 6px;
 }
 
 .first-box img {
@@ -127,9 +150,6 @@ form {
 .therapist-profile .detail-box {
     padding: 80px 0px 80px 30px !important;
 }
-.pro-data h3 {
-    width: 200px !important;
-}
 
 /*********Provider detail popup************/
 
@@ -137,11 +157,218 @@ form {
   
     padding: 5% 24%;
 }
+ .responsive-table {
+        overflow-x: scroll;
+    }
+    .home .about-area {
+        background-position: initial !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+    }
+    .home .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:after {
+        right: 88%;
+    }
+    .home .newsletter-area input {
+        /* border: none; */
+        height: 61px;
+    }
+    .home .navbar-nav ah1 {
+        font-size: 29px;
+    }
+    .home .menu-sec{
+        display: none !important;
+    }
+    .home .newsletter-area {
+        padding: 30px;
+        max-width: 84%;
+    }
+    .home .newsletter-area h3 {
+        font-size: 38px;
+            margin-bottom: 25px;
+    }
+    .home .footer-widget .logo img {
+        width: 88%;
+    }
+    .home .footer-widget a {
+        font-size: 13px;
+    }
+    .home .footer-widget h6 {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .home .nav-right-part {
+        background-color: #000;
+        width: 100%;
+        margin: 0;
+    }
+    .home .navbar-nav.menu-open {
+        padding: 20px;
+    }
+    .home .current-menu-item.menu-item-has-children {
+        margin-left: 0;
+    }
+    .home .nav-right-part .btn {
+        font-size: 13px;
+        padding: 0 10px;
+      }
+    
+      .home .responsive-mobile-menu {
+        
+        top: -13px;
+      }
+
+      /********SEARCH PROFILE START*******/
+      .profile-search {
+        margin: 0 auto;
+        max-width: 90%;
+            margin-bottom: 80px;
+    }
+    .profile-search .therapist-pro {
+    width: 67%;
+}
+.intro-profile img {
+    width: 29%;
+}
+.profile-search .therapist-pro h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+}
+.profile-search .therapist-pro span {
+    color: #606060;
+    font-size: 15px;
+}
+.profile-review {
+    padding: 0px 0px 4px 0px;
+}
+.profile-search button.btn.btn-menu {
+    padding: 0px 33px;
+}
+.right-profile .img-profile img {
+    width: 28%;
+}
+.left-profile {
+    padding-right: 20px;
+}
+.review-box {
+    color: #656565;
+    width: 55%;
+}
+.btn-load a {
+    width: 21%;
+}
+    /********SEARCH PROFILE END*******/
+
+      /************* SEARCH PROVIDER START******************/
+      /*.search-boxs form {
+            padding: 10px 20px;
+            box-shadow: inherit !important;
+            margin: 0;
+            border: none;
+            width: 100% !important;
+            height: 45px;
+        }*/
+        .search-boxs input {
+    border: none;
+    max-width: 184px;
+}
+.search-boxs .mb-2 {
+    margin-bottom: 0px !important;
+}
+.search-boxs .mt-2 {
+    margin-top: 0px !important;
+}
+       .detail-search {
+        padding: 20px 20px;
+    }
+   .img-pro {
+        width: 50%;
+    }
+    .search-content p {
+        padding-right: 0;
+    }
+   .detail-search .btn-menu {
+        padding: 10px 16px;
+        line-height: 47px;
+        font-size: 13px;
+    }
+    .search-btn {
+        width: 80%;
+    }
+  .search-boxs select#inputGroupSelect04 {
+        width: 30%;
+    }
+    .search-area .input-group {
+        height: 46px !important;
+    }
+    .search-wrap {
+        margin-top: 21px;
+    }
+ .search-boxs {
+        margin-bottom: 30px;
+    }
+   .search-content ul {
+        margin: 6px 0px;
+    }
+   .search-content img {
+        width: 23%;
+        margin-top: 3px;
+    }
+     .tick-img {
+        margin-top: -3px;
+    }
+    /* *******ERROR PAGE********** */
+    .home .error-section img {
+        width: 100%;
+    }
+    .home .error-section p {
+    
+        max-width: 100%;
+    }
+    .home .home-footer {
+        padding-top: 60px !IMPORTANT;
+    }
 
 }
 
 
 @media only screen and (max-width: 767px) {
+     /*************PROVIDER PROFILE START************/
+    .icon-edit a {
+    display: inline-block;
+    padding-right: 1px;
+}
+.icon-edit {
+    width: 72px;
+}
+.pro-data input {
+    width: 141px;
+    right: 78px;
+    top: -2px;
+    height: 33px;
+}
+.pro-data select {
+    width: 141px;
+    right: 78px;
+    top: -2px;
+    height: 33px;
+}
+.icon-edit i {
+    color: #52122c;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px #0000001a;
+    padding: 8px;
+    font-size: 12px;
+}
+.textarea-box {     
+    top: 314px;
+}
+.box-pro input {
+    width: 170px;
+    right: 72px;
+    top: 24px;
+}
+  /*************PROVIDER PROFILE END************/
+
    .center-box .search-boxs form {
     height: 180px;
     padding: 20px;
@@ -181,7 +408,11 @@ form {
     padding: 50px 30px 80px 30px;
 }
 .pro-data h3 {
-    width: 217px !important;
+    width: 166px !important;
+    font-size: 13px !important;
+}
+.pro-data p {
+    font-size: 13px;
 }
     .provider-footer p {
         font-size: 13px;
@@ -366,216 +597,7 @@ input#code {
 .middle-bar h2 {
     top: 0;
 }
-}
-@media only screen (max-device-width: 1366px) {
-
-
-  }
-/* *******HOME PAGE START********* */
-
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) {
-
-    .search-boxs input {
-    border: none;
-    max-width: 415px !important;
-}
-/*********Provider detail popup************/
-
-.btn-int a {
-  
-    padding: 5% 24%;
-}
-/*********Provider detail popup END************/
-
-    .provider-footer p {
-        font-size: 13px;
-    }
-
-    .home .nav-right-part {
-        background-color: #fff0 !important;
-    width: auto !important;
-    }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .responsive-table {
-        overflow-x: scroll;
-    }
-    .home .about-area {
-        background-position: initial !important;
-        background-repeat: no-repeat !important;
-        background-size: contain !important;
-    }
-    .home .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:after {
-        right: 88%;
-    }
-    .home .newsletter-area input {
-        /* border: none; */
-        height: 61px;
-    }
-    .home .navbar-nav ah1 {
-        font-size: 29px;
-    }
-    .home .menu-sec{
-        display: none !important;
-    }
-    .home .newsletter-area {
-        padding: 30px;
-        max-width: 84%;
-    }
-    .home .newsletter-area h3 {
-        font-size: 38px;
-            margin-bottom: 25px;
-    }
-    .home .footer-widget .logo img {
-        width: 88%;
-    }
-    .home .footer-widget a {
-        font-size: 13px;
-    }
-    .home .footer-widget h6 {
-        margin-bottom: 14px;
-        font-size: 16px;
-    }
-    .home .nav-right-part {
-        background-color: #000;
-        width: 100%;
-        margin: 0;
-    }
-    .home .navbar-nav.menu-open {
-        padding: 20px;
-    }
-    .home .current-menu-item.menu-item-has-children {
-        margin-left: 0;
-    }
-    .home .nav-right-part .btn {
-        font-size: 13px;
-        padding: 0 10px;
-      }
-    
-      .home .responsive-mobile-menu {
-        
-        top: -13px;
-      }
-
-      /********SEARCH PROFILE START*******/
-      .profile-search {
-        margin: 0 auto;
-        max-width: 90%;
-            margin-bottom: 80px;
-    }
-    .profile-search .therapist-pro {
-    width: 67%;
-}
-.intro-profile img {
-    width: 29%;
-}
-.profile-search .therapist-pro h3 {
-    color: #1E1E1E;
-    font-size: 20px;
-}
-.profile-search .therapist-pro span {
-    color: #606060;
-    font-size: 15px;
-}
-.profile-review {
-    padding: 0px 0px 4px 0px;
-}
-.profile-search button.btn.btn-menu {
-    padding: 0px 33px;
-}
-.right-profile .img-profile img {
-    width: 28%;
-}
-.left-profile {
-    padding-right: 20px;
-}
-.review-box {
-    color: #656565;
-    width: 55%;
-}
-.btn-load a {
-    width: 21%;
-}
-    /********SEARCH PROFILE END*******/
-
-      /************* SEARCH PROVIDER START******************/
-      /*.search-boxs form {
-            padding: 10px 20px;
-            box-shadow: inherit !important;
-            margin: 0;
-            border: none;
-            width: 100% !important;
-            height: 45px;
-        }*/
-        .search-boxs input {
-    border: none;
-    max-width: 184px;
-}
-.search-boxs .mb-2 {
-    margin-bottom: 0px !important;
-}
-.search-boxs .mt-2 {
-    margin-top: 0px !important;
-}
-       .detail-search {
-        padding: 20px 20px;
-    }
-   .img-pro {
-        width: 50%;
-    }
-    .search-content p {
-        padding-right: 0;
-    }
-   .detail-search .btn-menu {
-        padding: 10px 16px;
-        line-height: 47px;
-        font-size: 13px;
-    }
-    .search-btn {
-        width: 80%;
-    }
-  .search-boxs select#inputGroupSelect04 {
-        width: 30%;
-    }
-    .search-area .input-group {
-        height: 46px !important;
-    }
-    .search-wrap {
-        margin-top: 21px;
-    }
- .search-boxs {
-        margin-bottom: 30px;
-    }
-   .search-content ul {
-        margin: 6px 0px;
-    }
-   .search-content img {
-        width: 23%;
-        margin-top: 3px;
-    }
-     .tick-img {
-        margin-top: -3px;
-    }
-    /* *******ERROR PAGE********** */
-    .home .error-section img {
-        width: 100%;
-    }
-    .home .error-section p {
-    
-        max-width: 100%;
-    }
-    .home .home-footer {
-        padding-top: 60px !IMPORTANT;
-    }
-    }
-    
-    
-    @media only screen and (max-width: 767px) {
-
-        /***************SERACH PROFILE********************/
+ /***************SERACH PROFILE********************/
         .profile-search {
     margin: 0 auto;
     max-width: 93%;
@@ -813,4 +835,45 @@ input#code {
     .home .home-footer {
         padding-top: 60px !IMPORTANT;
     }
+}
+@media only screen (max-device-width: 1366px) {
+
+
+  }
+/* *******HOME PAGE START********* */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) {
+    .profile-image p {
+    
+    text-align: left;
+}
+.upload-icon {
+    right: 24%;
+    top: 67px;
+}
+
+    .search-boxs input {
+    border: none;
+    max-width: 415px !important;
+}
+/*********Provider detail popup************/
+
+.btn-int a {
+  
+    padding: 5% 24%;
+}
+/*********Provider detail popup END************/
+
+    .provider-footer p {
+        font-size: 13px;
     }
+
+    .home .nav-right-part {
+        background-color: #fff0 !important;
+    width: auto !important;
+    }
+}
+
+

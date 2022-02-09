@@ -1098,7 +1098,7 @@ input::placeholder {
     margin-top: 35px;
 }
 .pro-data h3{
-    width: 189px !important;
+    width: 181px !important;
 }
 .therapist-profile .detail-box {
     padding: 80px 70px !important;
@@ -1153,11 +1153,12 @@ input::placeholder {
   display: flex;
   border-bottom: 1px solid #c7c4c4;
   padding: 25px 0px;
+  align-items: center;
 }
 
 .pro-data h3 {
   color: #7C7C7C !important;
-  width: 180px !important;
+  width: 181px !important;
   font-size: 14px !important;
   margin: 0px;
   line-height: 34px;
@@ -1186,7 +1187,7 @@ input::placeholder {
 }
 
 .cont-info {
-  width: 11%;
+  width: 18%;
   text-align: right;
 }
 
@@ -1234,7 +1235,7 @@ input::placeholder {
 .round-img {
   border-radius: 100%;
   box-shadow: 0px 10px 30px #0000001A !important;
-  width: 12%;
+  width: 55px;
   margin-right: 13px;
 }
 
@@ -1242,7 +1243,83 @@ input::placeholder {
   padding-left: 50px;
   position: relative;
 }
+.box-pro form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+.box-pro input {
+    position: absolute;
+    width: 259px;
+    right: 132px;
+    top: -2px;
+}
+.pro-data form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+.detail-box form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+.pro-data input {
+    position: absolute;
+    width: 168px;
+    right: 132px;
+    top: -2px;
+}
+.pro-data select {
+    position: absolute;
+    width: 168px;
+    right: 132px;
+    top: -2px;
+}
+.icon-edit a {
+    display: inline-block;
+    padding-right: 14px;
+}
+.icon-edit a {
+    display: inline-block;
+    padding-right: 14px;
+}
 
+.icon-edit {
+    width: 115px;
+}
+.icon-edit i {
+    color: #52122c;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px #0000001a;
+    padding: 13px;
+}
+.textarea-box {
+    width: 329px;
+    position: absolute;
+    top: 183px;
+}
+.bio-para {
+    
+    position: relative;
+}
+.profile-image input#exampleFormControlFile1 {
+    width: 42px;
+}
+.profile-image form {
+    display: table-cell;
+    position: relative;
+    margin-right: 20px !important;
+    border: none !important;
+    top: -45px;
+}
+.profile-image input {
+    width: 68px !important;
+        opacity: 0;
+}
 /*****************PROVIDER PROFILE END*****************************/
 
 
@@ -1845,7 +1922,7 @@ input::-webkit-inner-spin-button {
 }
 .center-box .search-boxs .banner-form span#addon-wrapping {
     
-    
+
     border: none !important;
   }
 .banner-form .ssearch-banner {
@@ -2973,6 +3050,7 @@ color: #fff;
 .img-profile{
   padding: 0px;
   border: none;
+  padding-top: 35px;
 }
 .right-profile .img-profile img {
     margin-right: 11px;
