@@ -2549,6 +2549,125 @@ color: #fff;
   display: block !important;
 }
 
+/*******************FAV PAGE START*********************/
+#customer-dash {
+    min-height: 100vh;
+}
+.fav-card {
+    max-width: 245px;
+    min-width: 245px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 40px #00000012;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.fav-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    gap: 65px 28px;
+    justify-content: center;
+}
+.fav-card img {
+    width: 40%;
+    margin-top: -89px;
+        border-radius: 70px;
+}
+.fav-card h4 {
+    font-size: 20px;
+    color: #1E1E1E;
+    font-family: 'Graphik';
+    font-weight: 600;
+}
+
+.fav-card span {
+    display: block;
+    font-size: 18px;
+    color: #606060;
+    font-weight: 600;
+        padding-bottom: 4px;
+}
+.fav-card a {
+    font-size: 14px;
+    color: #D42E22;
+    font-weight: 600;
+}
+.fav-card button.btn.btn-primary {
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #A1A1A1;
+    padding: 5px 27px;
+        margin-top: 25px;
+}
+.fav-card i.fa.fa-heart {
+    margin-right: 7px;
+}
+.checked {
+  color: orange;
+}
+.review-stars span {
+    display: inline-block;
+}
+.checked {
+    color: #FFB300 !important;
+}
+.verified-tick {
+    position: absolute;
+    width: 17px !important;
+    top: 109px;
+    right: 91px;
+}
+
+
+
+/*******************FAV PAGE END***************************/
+
+/*******************DELET MODAL START*************************/
+.delete-popup .modal-dialog {
+    max-width: 420px !important;
+}
+.delete-popup p {
+    color: #4F0E29;
+    font-size: 14px;
+    line-height: 22px;
+}
+.delete-popup img {
+    border-radius: 63px;
+    padding: 20px 24px;
+    background-color: #f1f1f1;
+    width: 91px;
+        margin: 20px;
+}
+.delete-popup h3 {
+    font-size: 30px;
+    color: #4F0E29;
+}
+.delete-popup .modal-content {
+    border: 0;
+    margin-top: 40%;
+}
+.delete-popup .close {
+    color: #A1A1A1;
+    background-color: transparent;
+    border-color: #A1A1A1;
+    padding: 6px 30px;
+    font-size: 14px;
+}
+.delete-popup .back {
+    background-color: #D42E22;
+    border-color: #D42E22;
+    font-size: 14px;
+    padding: 6px 30px;
+    margin-left: 10px;
+}
+.delete-popup .modal-body {
+    padding: 40px;
+}
+/*******************DELET MODAL END*************************/
+
 @media all and (max-width: 1199px) {
   .home .nav-left-part .main-search-inner {
     display: none;

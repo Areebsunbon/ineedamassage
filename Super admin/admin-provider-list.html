@@ -197,8 +197,7 @@
                                                                           </button>
                                                                           <ul class="dropdown-menu">
                                                                             <li><a class="dropdown-item" href="#">View Profile</a></li>
-                                                                            <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                            
+                                                                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</a></li>
                                                                           </ul>
                                                                         </div>
                                                                       </td>
@@ -622,6 +621,26 @@
                     </div>
                 </div>
                 <!-- End of Main Content -->
+
+                 <!-- modal delet  starts-->
+                              
+                <!-- Modal -->
+                <div class="modal fade delete-popup text-center" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      
+                      <div class="modal-body">
+                        <h3>Are You Sure?</h3>
+                        <img src="../assets/img/delete.png">
+                        <p><strong>You are about to delete a chat history.</strong><br> This will delete the chat from the list. Are you sure?</p>
+                        <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary back">Delete</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <!-- modal delet end -->
                 <!-- footer area start -->
                         <footer class="provider-footer">
                             
